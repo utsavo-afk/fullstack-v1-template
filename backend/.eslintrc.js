@@ -43,7 +43,8 @@ module.exports = {
 		'import/resolver': {
 			typescript: {
 				alwaysTryTypes: true,
-				project: 'tsconfig.json',
+				// project: 'tsconfig.json', // !!paste full path to the tsconfig.json here
+				project: '/Users/uo/Dev/templates/fullstack-v1-template/backend/tsconfig.json',
 			},
 		},
 	},
